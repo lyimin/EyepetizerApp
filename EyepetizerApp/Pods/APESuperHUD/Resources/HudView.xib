@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E33e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="QuattroSansMobileRegular.otf">
+            <string>QuattroSansMobile-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.85000002384185791" contentMode="scaleToFill" restorationIdentifier="OnBoardingMessageView" id="GCh-R5-C77" customClass="HudView" customModule="APESuperHUD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KC3-nY-vC1">
+                    <rect key="frame" x="143" y="168" width="144" height="144"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6D8-7E-0h3">
+                            <rect key="frame" x="48" y="30" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="ajh-Xh-cV3"/>
+                                <constraint firstAttribute="width" constant="48" id="zHo-UV-OFE"/>
+                            </constraints>
+                        </imageView>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="U3s-Sd-5ET">
+                            <rect key="frame" x="48" y="30" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="9Fc-eh-6ne"/>
+                                <constraint firstAttribute="width" constant="48" id="yuj-wL-bEd"/>
+                            </constraints>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="1000" text="Message" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1P-CH-7rp">
+                            <rect key="frame" x="5" y="86" width="134" height="16"/>
+                            <fontDescription key="fontDescription" name="QuattroSansMobile-Regular" family="Quattro Sans Mobile" pointSize="13"/>
+                            <color key="textColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="x1P-CH-7rp" firstAttribute="top" secondItem="6D8-7E-0h3" secondAttribute="bottom" constant="8" id="DTW-3U-WU3"/>
+                        <constraint firstItem="U3s-Sd-5ET" firstAttribute="centerX" secondItem="6D8-7E-0h3" secondAttribute="centerX" id="FVx-qQ-BYU"/>
+                        <constraint firstAttribute="height" priority="999" constant="144" id="Gtz-L8-vHJ"/>
+                        <constraint firstItem="6D8-7E-0h3" firstAttribute="centerX" secondItem="KC3-nY-vC1" secondAttribute="centerX" id="S0c-7Z-n3V"/>
+                        <constraint firstItem="x1P-CH-7rp" firstAttribute="leading" secondItem="KC3-nY-vC1" secondAttribute="leading" constant="5" id="Yx7-eH-1hh"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="x1P-CH-7rp" secondAttribute="bottom" constant="16" id="fJc-wQ-f0d"/>
+                        <constraint firstItem="U3s-Sd-5ET" firstAttribute="centerY" secondItem="6D8-7E-0h3" secondAttribute="centerY" id="jaX-W9-VCl"/>
+                        <constraint firstItem="6D8-7E-0h3" firstAttribute="top" secondItem="KC3-nY-vC1" secondAttribute="top" constant="30" id="ocn-tY-Db5"/>
+                        <constraint firstAttribute="width" priority="999" constant="144" id="tWT-zd-rTF"/>
+                        <constraint firstAttribute="trailing" secondItem="x1P-CH-7rp" secondAttribute="trailing" constant="5" id="uM2-En-8gk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="KC3-nY-vC1" firstAttribute="centerX" secondItem="GCh-R5-C77" secondAttribute="centerX" id="OpZ-sl-fTi"/>
+                <constraint firstItem="KC3-nY-vC1" firstAttribute="centerY" secondItem="GCh-R5-C77" secondAttribute="centerY" id="Pj1-L8-1el"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="HudWidthConstraint" destination="tWT-zd-rTF" id="dzk-ux-psa"/>
+                <outlet property="hudHeightConstraint" destination="Gtz-L8-vHJ" id="cd8-6W-u9E"/>
+                <outlet property="hudMessageView" destination="KC3-nY-vC1" id="GMp-16-x35"/>
+                <outlet property="hudWidthConstraint" destination="tWT-zd-rTF" id="hjN-4c-443"/>
+                <outlet property="iconImageHeightConstraint" destination="ajh-Xh-cV3" id="ATQ-Ld-vsU"/>
+                <outlet property="iconImageView" destination="6D8-7E-0h3" id="m4y-Ks-lcH"/>
+                <outlet property="iconImageWidthConstraint" destination="zHo-UV-OFE" id="6J7-NT-28q"/>
+                <outlet property="informationLabel" destination="x1P-CH-7rp" id="S4d-m6-71a"/>
+                <outlet property="loadingActivityIndicator" destination="U3s-Sd-5ET" id="3k8-HU-eCr"/>
+                <outletCollection property="gestureRecognizers" destination="Nb3-Xa-RT5" appends="YES" id="L9j-Pl-OKP"/>
+            </connections>
+            <point key="canvasLocation" x="-108" y="380"/>
+        </view>
+        <tapGestureRecognizer id="Nb3-Xa-RT5">
+            <connections>
+                <action selector="tapGestureRecognized:" destination="GCh-R5-C77" id="CFO-Fa-wVY"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

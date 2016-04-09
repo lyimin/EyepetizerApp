@@ -1,0 +1,6 @@
+framework module JSAnimatedImagesView {
+  umbrella header "JSAnimatedImagesView-umbrella.h"
+
+  export *
+  module * { export * }
+}

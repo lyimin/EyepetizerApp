@@ -1,0 +1,6 @@
+framework module StarWars {
+  umbrella header "StarWars-umbrella.h"
+
+  export *
+  module * { export * }
+}

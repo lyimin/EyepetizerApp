@@ -1,0 +1,6 @@
+framework module APESuperHUD {
+  umbrella header "APESuperHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

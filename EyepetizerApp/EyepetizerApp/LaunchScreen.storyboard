@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="YGW-gl-NNR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="awl-K4-nka">
+            <objects>
+                <viewController id="YGW-gl-NNR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Uh-2y-8e7"/>
+                        <viewControllerLayoutGuide type="bottom" id="quF-V4-Mfu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hxv-RH-ngr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_launch_gray" translatesAutoresizingMaskIntoConstraints="NO" id="ULs-ew-3I5">
+                                <rect key="frame" x="113" y="221" width="150" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="Ixd-DV-X6B"/>
+                                    <constraint firstAttribute="width" constant="150" id="K9C-RR-BiX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ULs-ew-3I5" firstAttribute="centerY" secondItem="hxv-RH-ngr" secondAttribute="centerY" id="b04-4m-z44"/>
+                            <constraint firstItem="ULs-ew-3I5" firstAttribute="centerX" secondItem="hxv-RH-ngr" secondAttribute="centerX" id="cZY-aI-Iom"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="For-zf-f7M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_launch_gray" width="200" height="300"/>
+    </resources>
+</document>

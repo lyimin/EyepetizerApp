@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FZLTXIHJW--GB1-0.TTF">
+            <string>FZLTXIHJW--GB1-0</string>
+            <string>FZLTXIHJW--GB1-0</string>
+            <string>FZLTXIHJW--GB1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EYEMainTabView" customModule="EyepetizerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKO-tX-dH7">
+                    <rect key="frame" x="0.0" y="0.0" width="107" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="FZLTXIHJW--GB1-0" family="FZLanTingHeiS-L-GB" pointSize="14"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="每 日 精 选">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="choiceBtnClick:" destination="iN0-l3-epB" eventType="touchDown" id="ur8-28-ywP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qO-y6-XJl">
+                    <rect key="frame" x="107" y="0.0" width="106" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="FZLTXIHJW--GB1-0" family="FZLanTingHeiS-L-GB" pointSize="14"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="发 现 更 多">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="discoverBtnClick:" destination="iN0-l3-epB" eventType="touchDown" id="KxQ-SX-qk7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vly-eR-o7j">
+                    <rect key="frame" x="213" y="0.0" width="107" height="40"/>
+                    <fontDescription key="fontDescription" name="FZLTXIHJW--GB1-0" family="FZLanTingHeiS-L-GB" pointSize="14"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="热 门 排 行">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pupularBtnClick:" destination="iN0-l3-epB" eventType="touchDown" id="vuF-UG-8Q1"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3n-Rb-IZz">
+                    <rect key="frame" x="107" y="10" width="1" height="20"/>
+                    <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="RpQ-sW-s4u"/>
+                        <constraint firstAttribute="width" constant="1" id="x2W-Iu-l6e"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XEP-yy-VyU">
+                    <rect key="frame" x="213" y="10" width="1" height="20"/>
+                    <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="mez-O1-z9f"/>
+                        <constraint firstAttribute="height" constant="20" id="oC4-JJ-p4b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Vly-eR-o7j" firstAttribute="width" secondItem="PKO-tX-dH7" secondAttribute="width" id="1yt-Un-Vqv"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="leading" secondItem="PKO-tX-dH7" secondAttribute="trailing" id="3d1-sp-BHW"/>
+                <constraint firstItem="Vly-eR-o7j" firstAttribute="height" secondItem="PKO-tX-dH7" secondAttribute="height" id="3th-K0-3tm"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="width" secondItem="PKO-tX-dH7" secondAttribute="width" id="93P-Ur-voA"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JqG-dq-aGv"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Nv1-AJ-1Hr"/>
+                <constraint firstItem="Vly-eR-o7j" firstAttribute="leading" secondItem="5qO-y6-XJl" secondAttribute="trailing" id="P5e-5J-hFo"/>
+                <constraint firstItem="V3n-Rb-IZz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Q1C-zr-fas"/>
+                <constraint firstItem="XEP-yy-VyU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Zlz-0V-Azo"/>
+                <constraint firstAttribute="bottom" secondItem="Vly-eR-o7j" secondAttribute="bottom" id="dJW-TU-1Aw"/>
+                <constraint firstAttribute="trailing" secondItem="Vly-eR-o7j" secondAttribute="trailing" id="fPE-uo-ieY"/>
+                <constraint firstAttribute="bottom" secondItem="PKO-tX-dH7" secondAttribute="bottom" id="iaj-FY-XVR"/>
+                <constraint firstItem="PKO-tX-dH7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jI1-08-Hkx"/>
+                <constraint firstItem="PKO-tX-dH7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lZB-EO-6PW"/>
+                <constraint firstItem="Vly-eR-o7j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="myb-zh-Poa"/>
+                <constraint firstItem="Vly-eR-o7j" firstAttribute="leading" secondItem="XEP-yy-VyU" secondAttribute="leading" id="pOT-sS-tI2"/>
+                <constraint firstAttribute="bottom" secondItem="5qO-y6-XJl" secondAttribute="bottom" id="qwG-gx-IEb"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="height" secondItem="PKO-tX-dH7" secondAttribute="height" id="soB-YA-noc"/>
+                <constraint firstItem="5qO-y6-XJl" firstAttribute="leading" secondItem="V3n-Rb-IZz" secondAttribute="leading" id="xZ1-pI-QTd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="choiceBtn" destination="PKO-tX-dH7" id="RUC-FX-cv4"/>
+                <outlet property="discoverBtn" destination="5qO-y6-XJl" id="QTg-JC-xlN"/>
+                <outlet property="popularBtn" destination="Vly-eR-o7j" id="a2b-QY-Gos"/>
+            </connections>
+        </view>
+    </objects>
+</document>
