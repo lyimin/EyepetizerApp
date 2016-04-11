@@ -9,10 +9,10 @@
   - YYWebImage       : 图片加载库
   
 ### 附图
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/1.gif)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/2.gif)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/3.gif)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/4.gif)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/5.PNG)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/6.PNG)
-![](https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/7.PNG)
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/1.gif" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/2.gif" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/3.gif" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/4.gif" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/5.PNG" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/6.PNG" width="50%" height="50%" />
+<img src="https://github.com/lyimin/EyepetizerApp/blob/master/EyepetizerApp/EyepetizerApp/Resources/7.PNG" width="50%" height="50%" />
